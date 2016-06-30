@@ -1,5 +1,7 @@
-Composer for PHP5 with PostgreSQL driver.
+Composer with PHP PostgreSQL driver.
 ======
+
+For PHP7 use the `php7` tag.
 
 Basic Usage
 ------
