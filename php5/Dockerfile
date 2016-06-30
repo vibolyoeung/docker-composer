@@ -2,7 +2,7 @@
 #
 # VERSION 0.1.0
 
-FROM composer/composer:1.0.0-beta1
+FROM composer/composer:1.1
 MAINTAINER Thomas Barthelemy <thomasb@webridge.asia>
 
 RUN apt-get update -q && \
