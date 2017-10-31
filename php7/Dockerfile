@@ -2,8 +2,8 @@
 #
 # VERSION 0.1.0
 
-FROM composer/composer:php7
-MAINTAINER Thomas Barthelemy <thomasb@webridge.asia>
+FROM composer:1.5.2
+MAINTAINER Vibol YOEUNG <vibol.yoeung@webridge.asia>
     
 RUN echo 'deb http://packages.dotdeb.org jessie all' >> /etc/apt/sources.list && \
     echo 'deb-src http://packages.dotdeb.org jessie all' >> /etc/apt/sources.list && \
